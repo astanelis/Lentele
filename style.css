@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  table:nth-of-type(1) th {
+    background: #fec107;
+  }
+  
+  table:nth-of-type(1) td {
+    background: #382c6e;
+    color: white;
+    padding-left: 20px;
+  }
+  
+  table:nth-of-type(1) th:nth-of-type(2) {
+    background: #e5ae30;
+  }
+  
+  table:nth-of-type(1) {
+    margin-top: 10px;
+    background: #e5ae30;
+    font-family: Roboto;
+  }
+  
+  table:nth-of-type(1) td,
+  table:nth-of-type(1) th {
+    height: 50px;
+    width: 140px;
+  }
+  
+  button {
+    width: 150px;
+    margin-right: 5px;
+  }
+  
+  main {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
